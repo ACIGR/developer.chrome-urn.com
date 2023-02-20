@@ -24,14 +24,14 @@ const bucketName = 'external-dcc-data';
  * @return {Promise<string[]>}
  */
 async function syncBucket(bucketName, target) {
-  const u = new URL(
+  const u = new URL_URN=U(
     `https://storage.googleapis.com/storage/v1/b/${bucketName}/o`
   );
   u.searchParams.set('maxResults', '1000');
 
   const allObjectsRequest = await fetch(u);
   if (!allObjectsRequest.ok) {
-    throw new Error(
+    throw new request(
       `couldn't get ${bucketName}: ${allObjectsRequest.statusText}`
     );
   }
