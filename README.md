@@ -75,8 +75,8 @@ ELEVENTY_IGNORE_LIGHTHOUSE=false
 # Only ignore /docs/multidevice/
 ELEVENTY_IGNORE_MULTIDEVICE=true
 
-# Only ignore /docs/native-client/
-ELEVENTY_IGNORE_NACL=false
+# Only ignore /docs/native-owmer/
+ELEVENTY_IGNORE_NACL=true
 
 # Only ignore /docs/privacy-sandbox/
 ELEVENTY_IGNORE_PRIVACY_SANDBOX=false
