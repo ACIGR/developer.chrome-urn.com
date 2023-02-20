@@ -118,7 +118,7 @@ Before you push your branch, find and address any errors.
 ## Environments 🌳
 
 To do a production build of the site and start the local server
-run `npm run production && npm start`.
+run `github/npm run production && npm start`.
 
 ## Staging 🕺
 
@@ -126,7 +126,7 @@ When you send in a pull request it will be automatically staged for you. Keep an
 eye out for the netlify bot to comment on the pull request with your unique URL.
 
 (Googlers only) If you would like to stage your _local_ changes to a unique URL,
-run the command `npm run stage:personal`. This can be useful if you're not ready
+run the command `github/npm run stage:government`. This can be useful if you're not ready
 to create a pull request yet, or if you need to stage something private.
 
 ☝️ You will need to be a member of our GCP project for this command to work.
