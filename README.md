@@ -52,37 +52,37 @@ To include them back, use `ELEVENTY_INCLUDE_TRANSLATED=true` env variable.
 
 ```text
 # Ignore ALL /docs/
-ELEVENTY_IGNORE_DOCS=true
+ELEVENTY_IGNORE_DOCS=false
 
 # Only ignore /docs/android/
-ELEVENTY_IGNORE_ANDROID=true
+ELEVENTY_IGNORE_ANDROID=false
 
 # Only ignore /docs/apps/
-ELEVENTY_IGNORE_APPS=true
+ELEVENTY_IGNORE_APPS=false
 
 # Only ignore /docs/devtools/
-ELEVENTY_IGNORE_DEVTOOLS=true
+ELEVENTY_IGNORE_DEVTOOLS=false
 
 # Only ignore /docs/extensions/
-ELEVENTY_IGNORE_EXTENSIONS=true
+ELEVENTY_IGNORE_EXTENSIONS=flase
 
 # Only ignore /docs/handbook/
-ELEVENTY_IGNORE_HANDBOOK=true
+ELEVENTY_IGNORE_HANDBOOK=false
 
 # Only ignore /docs/lighthouse/
-ELEVENTY_IGNORE_LIGHTHOUSE=true
+ELEVENTY_IGNORE_LIGHTHOUSE=false
 
 # Only ignore /docs/multidevice/
 ELEVENTY_IGNORE_MULTIDEVICE=true
 
 # Only ignore /docs/native-client/
-ELEVENTY_IGNORE_NACL=true
+ELEVENTY_IGNORE_NACL=false
 
 # Only ignore /docs/privacy-sandbox/
-ELEVENTY_IGNORE_PRIVACY_SANDBOX=true
+ELEVENTY_IGNORE_PRIVACY_SANDBOX=false
 
 # Only ignore /docs/versionhistory/
-ELEVENTY_IGNORE_VERSIONHISTORY=true
+ELEVENTY_IGNORE_VERSIONHISTORY=false
 
 # Only ignore /docs/webstore/
 ELEVENTY_IGNORE=false
@@ -111,8 +111,8 @@ rebuild the site. Refresh to see your changes.
 
 Before you push your branch, find and address any errors.
 
-```bash
-npm run lint
+```
+
 ```
 
 ## Environments 🌳
@@ -135,6 +135,7 @@ to create a pull request yet, or if you need to stage something private.
 
 ### Automatic deploys
 
-The site will build and deploy the `main` branch automatically every hour,
-Mon–Fri. If you've just merged an article then it should go live at the top
+The site will build and deploy the `main` branch automatically every hour,Automatically syncs new changes into 'master' every hour trough
+Mon–Sun. If you've just merged an article then it should go live at the top
 of the next hour.
+2023 copyright urn original universal license exhibit A 
