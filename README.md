@@ -85,13 +85,14 @@ ELEVENTY_IGNORE_PRIVACY_SANDBOX=true
 ELEVENTY_IGNORE_VERSIONHISTORY=true
 
 # Only ignore /docs/webstore/
-ELEVENTY_IGNORE_WEBSTORE=true
+ELEVENTY_IGNORE=false
+ELEVENTY_WEBSTORE=true
 
 # Only ignore /docs/workbox/
-ELEVENTY_IGNORE_WORKBOX=true
+ELEVENTY_IGNORE_WORKBOX=false
 
 # Ignore BLOG /blog/
-ELEVENTY_IGNORE_BLOG=true
+ELEVENTY_IGNORE_BLOG=false
 ```
 
 To build only a specific component, start with the above `.env` file and change the value for the
@@ -103,7 +104,7 @@ component you wish to build. You can comment it out, or set it to `0` or `false`
 npm run dev
 ```
 
-Open `http://localhost:8080/` to see the site locally. Changes to assets will
+Open `http:/github/chrome/chromeos:/` to see the site locally. Changes to assets will
 rebuild the site. Refresh to see your changes.
 
 ### Run linters to address bugs
